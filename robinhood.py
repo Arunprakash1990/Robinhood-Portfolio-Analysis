@@ -254,7 +254,7 @@ def write_to_Excel(finalSummary,sectorSummary,industrySummary):
     column_chart1.set_title({ 'name': 'Industry Analysis of Portfolio Diversity and P/L %'})
     column_chart1.set_x_axis({'name': 'Industry','label_position': 'low'})
     column_chart1.set_y_axis({'name': 'Percentage %','label_position': 'low'})
-    column_chart1.set_size({'width': 720, 'height': 576})
+    column_chart1.set_size({'width': 1024, 'height': 768})
 
     industryXlsx.insert_chart('F2', column_chart1)
     
