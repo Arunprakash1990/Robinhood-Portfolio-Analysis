@@ -8,14 +8,22 @@ This project connects to your Robinhood Account using pyrh (the unofficial API f
 
 
 
-pyrh: [Robinhood library](https://github.com/robinhood-unofficial/pyrh) created by Rohan Pai. Works on Python 2.7+ and 3.5+
+pyrh: [Robinhood library](https://github.com/robinhood-unofficial/pyrh) created by Rohan Pai. Works on Python 3.5+. Install Python3 before running this application.
 
-## Installation
+## Instructions
+- Open Terminal
+- Clone this Repo
+- Install all the dependencies related to the Project using requirements.txt. pip3 install if you have both python 2 and 3 installed in your machine.
+- Run the Application
 
-Install all the dependencies related to the Project. Also, make sure you have python installed in your local machine.
+```terminal
+$ git clone https://github.com/Arunprakash1990/Robinhood-Portfolio-Analysis.git 
 
-```bash
-pip install -r requirements.txt
+$ cd Robinhood-Portfolio-Analysis
+
+$ pip install -r requirements.txt
+
+$ python robinhood.py
 ```
 
 ## Usage
