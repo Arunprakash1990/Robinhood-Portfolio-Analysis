@@ -15,6 +15,10 @@ pyrh: [Robinhood library](https://github.com/robinhood-unofficial/pyrh) created 
 - Clone this Repo
 - Install all the dependencies related to the Project using requirements.txt. pip3 install if you have both python 2 and 3 installed in your machine.
 - Run the Application
+- Look for an Excel file named "stock_Analysis_RobinHood.xlsx" on your project directory which will contain all the above analysis
+- If you are comfortable in python code and want to see everything on the fly, fork the iPython notebook and customize the code to your need
+
+## Code snippet to run on Terminal
 
 ```terminal
 $ git clone https://github.com/Arunprakash1990/Robinhood-Portfolio-Analysis.git 
@@ -26,13 +30,7 @@ $ pip install -r requirements.txt
 $ python robinhood.py
 ```
 
-## Usage
-- Run the below command on your terminal
-```bash
-python robinhood.py
-```
-- Look for an Excel file on your project directory which will contains all the above analysis
-- If you are comfortable in python code and want to see everything on the fly, fork the iPython notebook and customize the code to your need
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
