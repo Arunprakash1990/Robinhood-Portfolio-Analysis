@@ -30,6 +30,17 @@ $ pip install -r requirements.txt
 $ python robinhood.py
 ```
 
+*Fig. 1: Sector Analysis in Plotly - iPython Notebook*
+![Alt text](https://github.com/Arunprakash1990/Robinhood-Portfolio-Analysis/blob/master/Images/SectorAnalysis-Plotly.png?raw=true)
+
+*Fig. 2: Industry Analysis in Plotly - iPython Notebook*
+![Alt text](https://github.com/Arunprakash1990/Robinhood-Portfolio-Analysis/blob/master/Images/IndustryAnalysis-Plotly.png?raw=true)
+
+*Fig. 3: Industry Analysis in Excel*
+![Alt text](https://github.com/Arunprakash1990/Robinhood-Portfolio-Analysis/blob/master/Images/IndustryAnalysis-Excel.png?raw=true)
+
+*Fig. 4: Sector Analysis in Excel*
+![Alt text](https://github.com/Arunprakash1990/Robinhood-Portfolio-Analysis/blob/master/Images/SectorAnalysis-Excel.png?raw=true)
 
 
 ## Contributing
