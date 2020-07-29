@@ -92,6 +92,17 @@ def get_curr_marketPrice(tickerList):
             currStockList.append(currDict.copy())
     return currStockList
 
+def fillnaByTypes(df):
+    for col in df:
+        #get dtype for column
+        dt = df[col].dtype 
+        #check if it is a number
+        if dt == int or dt == float:
+            df[col].fillna(0)
+        else:
+            df[col].fillna("Unknown")
+    return df;
+
 def prepare_data_frames(buyList,currPriceList):
     df1 = pd.DataFrame(buyList)
     convert_type = {'name' : str,
@@ -137,7 +148,7 @@ def prepare_data_frames(buyList,currPriceList):
     portfolio = df1.merge(df2,on='Ticker',how='left').merge(df3,on='Ticker',how='left')
     portfolio = portfolio.sort_values('Purchase Date',ascending=False)
     portfolio.reset_index(inplace=True,drop=True)
-    portfolio.fillna('unknown', inplace=True)
+    portfolio = fillnaByTypes(portfolio)
     return portfolio
 
 def re_order_columns(portfolio):
