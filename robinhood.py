@@ -8,7 +8,7 @@ import xlsxwriter
 def login():
     username = input('Username :: ')
     password = getpass.getpass('Password :: ')
-    print("Check your email for 2 factor Authentication Code:")
+    print("Check your SMS for 2 factor Authentication Code:")
     rh.login(username, password,challenge_type="sms") 
     
 
