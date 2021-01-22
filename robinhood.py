@@ -9,7 +9,8 @@ def login():
     username = input('Username :: ')
     password = getpass.getpass('Password :: ')
     print("Check your email for 2 factor Authentication Code:")
-    rh.login(username, password)    
+    rh.login(username, password,challenge_type="sms") 
+    
 
 def get_order_History():
     orderHistory = rh.order_history()
